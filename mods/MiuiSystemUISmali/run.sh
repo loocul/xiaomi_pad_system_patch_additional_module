@@ -411,7 +411,7 @@ patch_VerticalSplitEntry
 patch_CvwFullEntry
 patch_DisableFreeformBottomCaptionEntry
 patch_ImmerseFreeformBottomCaptionEntry
-patch_CustomDotBlackListEntry
+#patch_CustomDotBlackListEntry
 
 ### 兼容小米错误的资源数据-@style/null
 sed -i 's/\s*parent="@style\/null"//g' $workfile/MiuiSystemUI/resources/*/res/values/styles.xml
